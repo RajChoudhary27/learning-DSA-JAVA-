@@ -1,0 +1,10 @@
+Ques 1 ->WAP to swap elements of given array pairwise
+[1,2,3,4,5]
+[2,1,4,3,5]
+
+Ques 2 ->You are given a sorted integer array nums (sorted in ascending order) and an integer target.
+Your task is to:
+Return the index if the target is found.
+If not found, return the index where it should be inserted so that the array remains sorted.
+
+Ques 3->given an array we have to find the frequency of an given element.
