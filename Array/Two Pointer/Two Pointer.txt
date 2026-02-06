@@ -27,29 +27,20 @@ Given an integer array nums, move all 0s to the end while maintaining the relati
 Do this in-place.
 
 4️⃣ Squares of a Sorted Array
-
 LeetCode #977
 
 📌 Problem Statement
-
 Given a sorted integer array nums (may contain negative numbers),
-
 Return an array of the squares of each number sorted in non-decreasing order.
 
 🟢 5️⃣ Container With Most Water
-
 LeetCode #11
 
 📌 Problem Statement
-
 You are given an integer array height.
-
 Each element represents height of a vertical line.
-
 Find two lines that together form a container that holds the maximum water.
-
 Return the maximum area.
-
 You may not tilt the container.
 
 🟢 6️⃣ 3Sum
