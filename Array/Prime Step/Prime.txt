@@ -7,4 +7,11 @@ Your task is to:
 Return the index if the target is found.
 If not found, return the index where it should be inserted so that the array remains sorted.
 
-Ques 3->given an array we have to find the frequency of an given element.
+Ques 3->given an array we have to find the frequency of an given element. in O(nlogn)
+
+Ques 4->. WAP to remove duplicate elements from a sorted array of integers.
+Constraints: Time complexity should be O(n) and space complexity should be O(1)
+
+Ques 5-> WAP to arrange given array containing only 0's and 1's in such a way that all the 0's comes before all 1's.
+
+Ques 6-> we have to sorted array. wap to merge that array to single array.

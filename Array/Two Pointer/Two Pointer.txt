@@ -1,0 +1,91 @@
+1️⃣ Two Sum  – Input Array Is Sorted
+LeetCode #167
+Platform: LeetCode
+
+📌 Problem Statement
+You are given a 1-indexed array of integers numbers that is sorted in non-decreasing order.
+Find two numbers such that they add up to a specific target.
+Return the indices of the two numbers (1-indexed).
+You must use constant extra space.
+There is exactly one solution.
+
+2️⃣ Remove Duplicates from Sorted Array
+LeetCode #26
+Platform: LeetCode
+
+📌 Problem Statement
+Given a sorted array nums, remove the duplicates in-place such that each unique element appears only once.
+Return the number of unique elements k.
+The first k elements should contain the final result.
+Do not allocate extra array.
+
+3️⃣ Move Zeroes
+LeetCode #283
+
+📌 Problem Statement
+Given an integer array nums, move all 0s to the end while maintaining the relative order of non-zero elements.
+Do this in-place.
+
+4️⃣ Squares of a Sorted Array
+
+LeetCode #977
+
+📌 Problem Statement
+
+Given a sorted integer array nums (may contain negative numbers),
+
+Return an array of the squares of each number sorted in non-decreasing order.
+
+🟢 5️⃣ Container With Most Water
+
+LeetCode #11
+
+📌 Problem Statement
+
+You are given an integer array height.
+
+Each element represents height of a vertical line.
+
+Find two lines that together form a container that holds the maximum water.
+
+Return the maximum area.
+
+You may not tilt the container.
+
+🟢 6️⃣ 3Sum
+
+LeetCode #15
+
+📌 Problem Statement
+
+Given an integer array nums, return all unique triplets [nums[i], nums[j], nums[k]] such that:
+
+nums[i] + nums[j] + nums[k] == 0
+
+
+Triplets must not be duplicated.
+
+🟢 7️⃣ 4Sum
+
+LeetCode #18
+
+📌 Problem Statement
+
+Given an array nums and an integer target,
+
+Return all unique quadruplets [a, b, c, d] such that:
+
+a + b + c + d = target
+
+
+Do not include duplicate quadruplets.
+
+🟢 8️⃣ Trapping Rain Water
+
+LeetCode #42
+
+📌 Problem Statement
+
+Given n non-negative integers representing elevation map where width of each bar is 1,
+
+Compute how much water it can trap after raining.
