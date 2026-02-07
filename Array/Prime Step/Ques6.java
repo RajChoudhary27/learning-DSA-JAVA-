@@ -4,7 +4,7 @@ public class Ques6 {
 
     public static void main(String[] args) {
         int[] arr1 = {4, 8, 11, 19, 20};
-        int[] arr2 = {3, 4, 9, 12};
+        int[] arr2 = {3, 4,4, 9, 12};
         int length = arr1.length + arr2.length;
         int[] newarr = new int[length];
 

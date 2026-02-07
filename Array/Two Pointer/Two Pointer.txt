@@ -44,16 +44,11 @@ Return the maximum area.
 You may not tilt the container.
 
 🟢 6️⃣ 3Sum
-
 LeetCode #15
 
 📌 Problem Statement
-
 Given an integer array nums, return all unique triplets [nums[i], nums[j], nums[k]] such that:
-
 nums[i] + nums[j] + nums[k] == 0
-
-
 Triplets must not be duplicated.
 
 🟢 7️⃣ 4Sum

@@ -15,3 +15,11 @@ Constraints: Time complexity should be O(n) and space complexity should be O(1)
 Ques 5-> WAP to arrange given array containing only 0's and 1's in such a way that all the 0's comes before all 1's.
 
 Ques 6-> we have to sorted array. wap to merge that array to single array.
+
+Ques 7->WAP to find median of two sorted array.
+
+Ques 8->Single Number Problem
+
+Ques 9->Plus one Problem
+[1,2,4] -> [1,2,5]
+
