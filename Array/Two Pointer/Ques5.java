@@ -10,20 +10,24 @@ public class Ques5 {
     public static void main(String[] args) {
         int nums[]={1,8,6,2,5,4,8,3,7};
         int max=0;   
-        int i=0;
-       
+        int left=0;
+        int right=nums.length-1;
 
-        for(int j=1;j<nums.length-1;j++)
-        {
-              max=nums[i]*nums[j];  //9
-              if(nums[i]*nums[j]>=max)
-              {
-                max=nums[i]*nums[j];
+        while(left<right)
+            {
+                int width=left-right;
+                int height=Math.min(nums[left],nums[right]);
+                int area=width*height;
+                max=Math.min(max,area);
                 
-                i++;
-              }
-              i++;
+                // Move the smaller height pointer
+            if(nums[left] < nums[right]) {
+                left++;
+            } else {
+                right--;
+            }
         }
-        System.out.println("Max area is : "+max);
+       
+System.out.println("Max area is : " + max);
     }
 }
