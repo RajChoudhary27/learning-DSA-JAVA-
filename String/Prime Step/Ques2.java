@@ -5,8 +5,6 @@
 public class Ques2 {
     public static void main(String[] args) {
         String str="Hello World";
-        int length=str.length();
-        int character=0;
         int words=0;
         int upper=0;
         int lower=0;

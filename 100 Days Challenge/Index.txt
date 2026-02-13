@@ -11,4 +11,12 @@ Ques-5 ->You are given a list of non-negative integers nums.
 Your task is to arrange them such that they form the largest possible number when concatenated together.
 Return the result as a string.
 
-Ques-6 ->
+Ques-6 ->Reverse words in String.
+
+Ques-7 -> Kth largest Elements in an array.Given an integer Array nums and a number k,find the kth largest element in an array.
+
+Ques-8 ->Water Bottles You are given the number of full bottles and exchange rate.Find the maximum number of bootles you can drink.
+
+Ques-9 ->Given an integer n,return if its power of two,otherwise false.
+
+Ques-10 ->Mximum Product of Two Elements in an Array.
