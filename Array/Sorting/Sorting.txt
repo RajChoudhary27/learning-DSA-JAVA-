@@ -1,0 +1,80 @@
+
+1️⃣ Sort Colors (Dutch National Flag)
+LeetCode #75
+
+📌 Problem Statement
+Given an array nums with n objects colored:
+0 → red
+1 → white
+2 → blue
+Sort them in-place so that objects of the same color are adjacent, in the order red, white, blue.
+You must solve it without using the library sort function.
+
+
+2️⃣ Merge Two Sorted Arrays
+LeetCode #88
+
+📌 Problem Statement
+You are given two sorted integer arrays:
+nums1 (size m + n)
+nums2 (size n)
+Merge nums2 into nums1 as one sorted array.
+The first m elements in nums1 are valid; the last n elements are 0 placeholders.
+Modify nums1 in-place.
+
+3️⃣ Kth Largest Element in an Array
+LeetCode #215
+
+📌 Problem Statement
+Given an integer array nums and an integer k,
+Return the kth largest element in the array.
+Note: It is the kth largest in sorted order, not the kth distinct element.
+You must solve it better than O(n log n).
+
+4️⃣ Sort Characters by Frequency
+LeetCode #451
+
+📌 Problem Statement
+Given a string s, sort it in decreasing order based on the frequency of characters.
+Return the sorted string.
+If two characters have the same frequency, any order is fine.
+
+5️⃣ Valid Anagram
+LeetCode #242
+
+📌 Problem Statement
+Given two strings s and t,
+Return true if t is an anagram of s, otherwise return false.
+An anagram is formed by rearranging letters using all original characters exactly once.
+
+6️⃣ Relative Sort Array
+LeetCode #1122
+
+📌 Problem Statement
+Given two arrays:
+arr1
+arr2
+All elements of arr2 are distinct and appear in arr1.
+Sort arr1 such that:
+Elements in arr2 appear first in the same relative order as arr2.
+Remaining elements appear at the end in ascending order.
+
+7️⃣ Minimum Swaps to Sort
+
+❗ Not a direct standard LeetCode title, but similar concept appears in:
+Closest official style:
+LeetCode #2471 – Minimum Number of Operations to Sort a Binary Tree by Level
+(Conceptually similar but different structure)
+Classic array version (commonly asked in interviews):
+
+📌 Problem Statement (Array Version)
+Given an array of distinct integers, find the minimum number of swaps required to sort the array in ascending order.
+
+8️⃣ Largest Number
+LeetCode #179
+
+📌 Problem Statement
+Given a list of non-negative integers nums,
+Arrange them such that they form the largest possible number.
+Return the result as a string.
+If result contains leading zeros, return "0".

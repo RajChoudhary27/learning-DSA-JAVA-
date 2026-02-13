@@ -1,0 +1,75 @@
+1️⃣ Merge Intervals
+LeetCode #56
+
+📌 Problem Statement
+You are given an array of intervals where:
+intervals[i] = [start, end]
+Merge all overlapping intervals and return an array of the non-overlapping intervals that cover all input intervals.
+
+2️⃣ Insert Interval
+LeetCode #57
+
+📌 Problem Statement
+You are given a list of non-overlapping intervals sorted by start time and a new interval.
+Insert the new interval into the list and merge if necessary.
+Return the updated list.
+
+3️⃣ Non-overlapping Intervals
+LeetCode #435
+
+📌 Problem Statement
+Given an array of intervals,
+return the minimum number of intervals you need to remove to make the rest non-overlapping.
+
+👉 Greedy: remove minimum overlaps.
+
+4️⃣ Meeting Rooms I
+
+❗ Not directly on LeetCode main (popular interview problem)
+Closest similar:
+LeetCode #252 (Premium)
+
+📌 Problem Statement
+Given an array of meeting time intervals:
+[start, end]
+Determine if a person could attend all meetings.
+Return true or false.
+
+5️⃣ Meeting Rooms II
+
+❗ Premium on LeetCode
+LeetCode #253 (Premium)
+
+📌 Problem Statement
+Given meeting intervals,
+Return the minimum number of conference rooms required.
+
+6️⃣ Minimum Number of Arrows to Burst Balloons
+LeetCode #452
+
+📌 Problem Statement
+You are given points where:
+points[i] = [xstart, xend]
+Each balloon is a horizontal interval.
+Return the minimum number of arrows required to burst all balloons.
+An arrow shot at position x bursts all balloons with:
+xstart ≤ x ≤ xend
+
+7️⃣ Employee Free Time
+
+❗ Premium Problem
+LeetCode #759 (Premium)
+
+📌 Problem Statement
+Given a list of employees' schedules (each schedule is a list of non-overlapping intervals),
+Return the list of common free time intervals shared by all employees.
+
+8️⃣ Interval List Intersections
+
+LeetCode #986
+📌 Problem Statement
+You are given two lists of closed intervals:
+firstList
+secondList
+Each list is pairwise disjoint and sorted.
+Return their intersection.

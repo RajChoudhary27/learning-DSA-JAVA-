@@ -1,0 +1,83 @@
+1️⃣ Range Sum Query – Immutable
+LeetCode #303
+
+📌 Problem Statement
+Design a class NumArray such that:
+NumArray(int[] nums) initializes the object with array nums.
+sumRange(left, right) returns the sum of elements between indices left and right (inclusive).
+Multiple queries honge.
+
+👉 Prefix sum preprocessing problem.
+
+2️⃣ Subarray Sum Equals K
+LeetCode #560
+
+📌 Problem Statement
+Given an integer array nums and integer k,
+return the total number of continuous subarrays whose sum equals k.
+
+👉 Prefix sum + HashMap pattern.
+
+3️⃣ Continuous Subarray Sum
+LeetCode #523
+
+📌 Problem Statement
+Given integer array nums and integer k,
+return true if there exists a continuous subarray of size at least 2 whose sum is a multiple of k.
+
+👉 Prefix sum + modulo trick.
+
+4️⃣ Find Pivot Index
+
+LeetCode #724
+
+📌 Problem Statement
+Given an array nums,
+return the pivot index where:
+sum of left elements == sum of right elements
+If none exists, return -1.
+
+👉 Left sum + total sum trick.
+
+5️⃣ Product of Array Except Self
+LeetCode #238
+
+📌 Problem Statement
+Given an array nums,
+return an array answer where:
+answer[i] = product of all elements except nums[i]
+Without using division.
+Time O(n), space O(1) (excluding output array).
+
+👉 Prefix product + suffix product.
+
+6️⃣ Running Sum of 1D Array
+LeetCode #1480
+
+📌 Problem Statement
+Given array nums,
+return running sum array where:
+runningSum[i] = nums[0] + nums[1] + ... + nums[i]
+
+👉 Basic prefix sum.
+
+7️⃣ Contiguous Array
+LeetCode #525
+
+📌 Problem Statement
+Given a binary array nums,
+return the length of the longest contiguous subarray with equal number of 0s and 1s.
+
+👉 Convert 0 → -1 and use prefix sum trick.
+
+8️⃣ Corporate Flight Bookings
+LeetCode #1109
+
+📌 Problem Statement
+There are n flights numbered from 1 to n.
+You are given an array bookings, where:
+bookings[i] = [first, last, seats]
+Meaning seats booked on every flight from first to last.
+Return array of total seats booked for each flight.
+
+👉 Difference array + prefix sum trick.

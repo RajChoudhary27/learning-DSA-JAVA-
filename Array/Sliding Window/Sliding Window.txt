@@ -1,0 +1,126 @@
+1️⃣ Maximum Average Subarray I
+LeetCode #643
+
+📌 Problem Statement
+Given an integer array nums and an integer k,
+Find the contiguous subarray of length k that has the maximum average value.
+Return the maximum average.
+
+2️⃣ First Negative Integer in Every Window of Size K
+❗ Not an official standard LeetCode title.
+Mostly asked on GFG / Interview practice.
+
+📌 Problem Statement
+Given an array and an integer k,
+For every window of size k, print the first negative number in that window.
+If no negative number exists, print 0.
+
+3️⃣ Longest Substring Without Repeating Characters
+LeetCode #3
+
+📌 Problem Statement
+Given a string s,
+Find the length of the longest substring without repeating characters.
+Substring must be contiguous.
+
+4️⃣ Longest Repeating Character Replacement
+
+LeetCode #424
+📌 Problem Statement
+You are given a string s and an integer k.
+You can replace at most k characters in the string.
+Return the length of the longest substring containing the same letter after performing at most k replacements.
+
+5️⃣ Minimum Window Substring
+
+LeetCode #76
+📌 Problem Statement
+Given two strings s and t,
+Return the minimum window substring of s such that every character in t (including duplicates) is included in the window.
+If no such substring exists, return empty string.
+
+6️⃣ Find All Anagrams in a String
+
+LeetCode #438
+📌 Problem Statement
+Given two strings s and p,
+Return all start indices of p’s anagrams in s.
+Answer can be returned in any order.
+
+7️⃣ Max Consecutive Ones III
+LeetCode #1004
+
+📌 Problem Statement
+Given a binary array nums and an integer k,
+You may flip at most k zeros to 1.
+Return the maximum number of consecutive 1’s in the array.
+
+8️⃣ Fruit Into Baskets
+LeetCode #904
+
+📌 Problem Statement
+You are given an integer array fruits.
+You have two baskets, and each basket can hold only one type of fruit.
+Return the length of the longest subarray that contains at most 2 distinct integers.
+
+***********************************************************************************************************
+
+🟢 🧊 FIXED SIZE WINDOW (Array Only)
+1️⃣ Maximum Average Subarray I
+
+LeetCode #643
+Given an integer array nums and integer k,
+find the contiguous subarray of length k that has the maximum average value.
+
+👉 Classic fixed window sum pattern.
+
+2️⃣ Number of Sub-arrays of Size K and Average ≥ Threshold
+
+LeetCode #1343
+Given array arr, integer k and threshold,
+return number of subarrays of size k whose average ≥ threshold.
+👉 Fixed window + counting.
+
+3️⃣ Find K-Length Subarrays With Sum = K
+
+LeetCode #325 (variation idea)
+(Exact version not always fixed, but pattern fits.)
+
+🟢 🔥 VARIABLE SIZE WINDOW (Array Only)
+
+4️⃣ Max Consecutive Ones III
+
+LeetCode #1004
+Binary array nums + integer k,
+flip at most k zeros → find longest subarray with 1s.
+👉 At most K condition.
+
+5️⃣ Fruit Into Baskets
+
+LeetCode #904
+Array fruits,
+return length of longest subarray with at most 2 distinct integers.
+👉 At most 2 distinct numbers.
+
+6️⃣ Longest Continuous Subarray With Absolute Diff ≤ Limit
+
+LeetCode #1438
+Given array nums and integer limit,
+find longest subarray where:
+max(nums) - min(nums) <= limit
+👉 Sliding window + condition shrink.
+
+7️⃣ Subarray Product Less Than K
+
+LeetCode #713
+Given array nums and integer k,
+return number of contiguous subarrays where product < k.
+👉 Window expand + shrink.
+
+8️⃣ Minimum Size Subarray Sum
+
+LeetCode #209
+Given array nums and integer target,
+find minimal length of contiguous subarray whose sum ≥ target.
+Return 0 if none exists.
+👉 Classic variable window shrink pattern.
