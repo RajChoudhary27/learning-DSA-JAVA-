@@ -1,0 +1,13 @@
+1. To get minimum data from stack in O(1)
+2. To reverse print given string using stack
+3. To check if given string is palindrome or not, using user defined stack
+4. WAP to convert given decimal number into binary using user defined stack
+5. WAP to convert given binary number into decimal using user defined stack
+
+**6. To validate the given input expression such as 
+    
+        () -> valid
+        (() -> invalid
+        ()) -> invalid
+        ([{}])( -> invalid
+	"({})[()]"
