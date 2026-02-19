@@ -3,6 +3,7 @@ class Stack{
    int[] arr;
    int Top=-1;
    int capacity;
+   int min=Integer.MAX_VALUE;
     Stack(int size)
     {
         capacity=size;
@@ -14,7 +15,10 @@ void push(int element)
     {
          System.out.print(" Stack Overflow");
     } 
-    else{
+    else
+    {
+        if(element<min)
+            min=element;
         Top++;
         arr[Top]=element;
     }
@@ -52,8 +56,11 @@ void pop()
 }
 void minimum()
 {
-   int min=arr[Top];
-
+   if(min==-1)
+   {
+    System.out.println("Stack Underflow");
+   }
+   System.out.println(min+ " is Minimum Element");
 }
 }
 

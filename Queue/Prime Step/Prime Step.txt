@@ -1,0 +1,6 @@
+Ques 1 ->WAP to Perform following Operations on Queue
+a) Enqueue
+b) Dequeue
+c) Display
+Ques 2-> To convert given stack into queue, we need to manage stack in such a way that
+it will behave like a queue using the operations of stack only."
