@@ -1,4 +1,3 @@
-
 /*
 Stack behaving like Queue
 */
