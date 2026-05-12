@@ -17,7 +17,6 @@ public class Move0_1_2 {
             else if(arr[mid]==1)
             {
                 mid++;
-
             }
             else{
                 int temp=arr[mid];
