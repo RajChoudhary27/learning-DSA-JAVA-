@@ -31,4 +31,6 @@ public class SelectionSort {
 }
 /*
 Selection Sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sorted part at the left end and the unsorted part at the right end. Initially, the sorted part is empty and the unsorted part is the entire list. The algorithm repeatedly selects the smallest (or largest, depending on sorting order) element from the unsorted part and moves it to the end of the sorted part.
+Time Complexity: O(n^2) in all cases (worst, average, and best) because it always requires two nested loops to complete the sorting process.
+Space Complexity: O(1) as it is an in-place sorting algorithm.  
 */
